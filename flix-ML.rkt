@@ -1,13 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname cs135flix) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
-;;
-;; ***************************************************
-;; Harsh Shah (20774723)
-;; CS 135 Fall 2018
-;; Assignment 05, Problem 3
-;; ***************************************************
-;;
 
 ;; A Movie-fv is a (list Nat Nat Nat Nat Nat Nat Nat Nat)
 ;; A Rating is an Int
@@ -88,7 +81,6 @@
                                      (list -1 -1 0 1 0 1 -1 0)))
               (list -1 -1 7 -3 0 4 5 6))
 
-;; PART B
 
 (define-struct movie (title genres))
 ;; A Movie is a (make-movie Str Movie-fv)
